@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  <head><title>Employee List</title></head>
+  <h1>Employee List</h1>
+  <body>
+    
+    <ul>
+      {% for e in employees %}
+      <li>{{ e.name }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
